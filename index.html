@@ -1,0 +1,144 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- adding tailwind link -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- configuration link -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+
+  <!--adding awesome icons link-->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <!-- navbar -->
+  <div id="navbar" class="px-6 py-6 bg-orange-300 flex items-center justify-between">
+    <!-- logo -->
+    <div id="logo">
+        <img src="https://plus.unsplash.com/premium_photo-1671465486919-110efcb97000?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="logo" width="60px" height="60px">
+    </div>
+    <!-- navlinks -->
+   <div id="navlinks" class="flex gap-5">
+    <a href="#" class="font-semibold  hover:text-white">Destinations</a>
+    <a href="#" class="font-semibold hover:text-white">Hotels</a>
+    <a href="#" class="font-semibold hover:text-white">Flights</a>
+    <a href="#" class="font-semibold hover:text-white">Bookings</a>
+    <a href="#" class="font-semibold hover:text-white">Logins</a>
+    <a href="#" class="border px-8 py-1.5 rounded-md border-black font-semibold hover:text-white">Sign up</a></div>
+<!-- dropdown menu -->
+   <div id="dropdown">
+    <label for="languages">Choose a Language:</label> 
+    <select name="languages" id="languages" class="text-blue-500"> 
+      <option value="english" >English</option> 
+      <option value="igbo">Igbo</option> 
+      <option value="yoruba">Yoruba</option> 
+      <option value="hausa">Hausa</option> 
+    </select>
+   </div>
+ </div>
+
+  <!--Hero section-->
+
+    <div class="bg-cover bg-center h-screen" 
+      style="background-image: url('boy\ to\ sky.jpg.jpg');">
+      <h1 class="mt-1 text-orange-300 text-6xl font-bold">Travel round the world <br>and live a fulling life</h1>
+      <button class="bg-red-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Book a flight</button>
+    </div>
+
+
+    <!--Menu section-->
+
+    <div class="bg-slate-600 grid grid-cols-3 gap-4 mt-4 ml-20 mr-4 mb-2" >
+      <div class="rounded bg bg-blue-300" >
+        <img src="geeee.jpg" alt="page" width="300px" height="500px">
+        <h3 class="text-2xl font-semibold">
+          <p> Book flight from Lagos to Abuja <br> @2000NGN/hr</p>
+        </h3>
+      </div>
+      <div class="rounded bg bg-blue-300" >
+         <img src="mann.jpg.jpg" alt="hand" width="300px" height="500px">
+         <h3 class="text-2xl font-semibold">
+          <p> Book flight from Lagos to Portharcort<br> @2000NGN/hr</p>
+        </h3>
+      </div>
+      <div class="rounded bg bg-blue-300" >
+        <img src="mann.jpg.jpg" alt="hand" width="300px" height="500px">
+        <h3 class="text-2xl font-semibold">
+          <p> Book flight from Lagos to Calabar <br> @2000NGN/hr</p>
+        </h3>
+      </div>
+    </div>
+
+      <!--Contact section-->
+
+    <div class="bg-green-400 mt-0">        
+    <form class="border border-solid pl-16 border-purple-">
+      <table>
+       <tr>
+         <td>
+           Name:
+         </td>
+         <td>
+           <input type="text" placeholder="Name">
+         </td>
+       </tr>
+       <tr>
+         <td>
+           Email:
+         </td>
+         <td>
+           <input type="work" placeholder="Email">
+         </td>
+       </tr>
+       <tr>
+         <td>
+           About:
+         </td>
+         <td>
+           <input type="text" placeholder="About">
+         </td>
+       </tr>
+       <tr>
+         <td>
+           Contact:
+         </td>
+         <td>
+           <input type="text" placeholder="Contact">
+         </td>
+       </tr>
+      </table>
+      <button class="bg-white hover:bg-red-400 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow"> Submit</button>
+    </form>
+    </div>
+      
+   
+
+    <!--Footer section-->
+    <footer>
+      <div class="footer bg-green-500 p-4 text-center text font-semibold space-x-4">
+          Copyright &copy; 2024, Chase fly
+
+
+  <!--Social media icons-->
+
+       <a href="#" class="fa fa-facebook"></a>
+       <a href="#" class="fa fa-twitter"></a>
+       <a href="#" class="fa fa-instagram"></a>
+       <a href="#" class="fa fa-youtube"></a>
+      </div>
+  </footer>
+    
+</body>
+</html>
